@@ -70,9 +70,9 @@ server.on("upgrade", (req, socket, head) => {
 });
 
 server.on("listening", () => {
-  console.log(`Doge Unblocker @ Port 80`);
+  console.log(`Doge Unblocker @ Port 443`);
 });
 
 server.listen({
-  port: 80,
+  port: 443,
 });
